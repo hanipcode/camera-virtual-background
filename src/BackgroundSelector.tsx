@@ -1,7 +1,7 @@
 import React from "react";
 import bgData from "./data/bg.json";
 import styles from "./BackgroundSelector.module.scss";
-import { BGProvider, useBG } from "./context/bgContext";
+import { useBG } from "./context/bgContext";
 
 function BackgroundSelector() {
   const { bg, setBg } = useBG();
