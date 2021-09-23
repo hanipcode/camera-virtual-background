@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imageListContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  height: 100px;
+  margin-right: 12px;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.selected {
+  border: 4px orangered solid;
+  border-radius: 4px;
+}
